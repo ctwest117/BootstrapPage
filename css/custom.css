@@ -29,8 +29,9 @@
 
 
 .navbar-toggle-button {
+    margin: .5rem;
     padding: 1rem 1.5rem;
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1;
 }
 
@@ -58,7 +59,7 @@
 }
 
 .gap-25 {
-    gap: 2.5rem;
+    gap: 2rem;
 }
 
 .w-95 {
@@ -67,4 +68,8 @@
 
 .h-30{
     height: 30%;
+}
+
+.h-fit{
+    height: fit-content;
 }
