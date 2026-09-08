@@ -1,0 +1,70 @@
+/* special elements */
+.hero-background {
+    background-image: url("../images/hero_bg_image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.window-blur {
+    background-color: rgba(128, 128, 128, 0.25);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    border: .2rem solid rgba(128, 128, 128, 0.25);
+    border-right: 0;
+    border-bottom: 0;
+
+}
+
+.middle-border {
+    border-right: 1px solid rgba(100, 100, 100, 0.25);
+    border-left: 1px solid rgba(100, 100, 100, 0.25);
+}
+
+
+.no-child-m *{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.navbar-toggle-button {
+    padding: 1rem 1.5rem;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+/* Custom Colors */
+.purple {
+    background-color: #8B37FF;
+}
+
+.text-purple{
+    color:#8B37FF;
+}
+
+/* Some custom sizing and spacing */
+
+.heading-1 {
+    font-size: 5rem;
+}
+
+.heading-2{
+    font-size: 2rem;
+}
+
+.header-0 {
+    font-size: 2rem;
+}
+
+.gap-25 {
+    gap: 2.5rem;
+}
+
+.w-95 {
+    width: 95%;
+}
+
+.h-30{
+    height: 30%;
+}

@@ -9,50 +9,49 @@
     <link rel="stylesheet" href="css/custom.css"/>
 </head>
 <body>
-    <header>
-        <div class="d-md-none">
-            <button>&#9776;</button>
-        </div>        
-        <nav class="container d-none d-md-block">
-            <ul class="row">
-                <li class="col"><a href="#">Overview</a></li>
-                <li class="col"><a href="#">Content</a></li>
-                <li class="col"><a href="#">Requirements</a></li>
-                <li class="col"><a href="#">Tutors</a></li>
-                <li class="col"><a href="#">Reviews</a></li>
-                <li class="col"><a href="#">Pricing</a></li>
-                <li class="col"><a href="#">FAQ</a></li>
-            </ul>
+    <header class="fixed-top bg-transparent">
+            <button class="d-inline d-sm-none window-blur rounded-pill navbar-toggler navbar-toggle-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">&#9776;</button>        
+        <nav class="container-fluid fixed-bottom window-blur no-child-m navbar navbar-expand-sm">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="row navbar-nav w-100">
+                    <li class="col nav-item"><a class="nav-link" href="#">Overview</a></li>
+                    <li class="col nav-item"><a class="nav-link" href="#">Content</a></li>
+                    <li class="col nav-item"><a class="nav-link" href="#">Requirements</a></li>
+                    <li class="col nav-item"><a class="nav-link" href="#">Tutors</a></li>
+                    <li class="col nav-item"><a class="nav-link" href="#">Reviews</a></li>
+                    <li class="col nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                    <li class="col nav-item"><a class="nav-link" href="#">FAQ</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
-    <main>
-        <section>
-            <p>Learn Bootstrap Like a Pro</p>
-            <h1>&lcub;BootCamp&rcub;</h1>
-            <h2>A Course In Bootstrap CSS For Developers</h2>
-            <div>
-                <div class="container text-center">
-                    <div class="row">
+    <main class="d-flex justify-content-center align-items-center bg-dark text-white vw-100 vh-100 hero-background">
+        <section class="d-flex flex-column justify-content-center gap-25 align-items-center text-center w-95 h-75 window-blur rounded-5">
+            <p class="m-0 header-0">Learn Bootstrap Like a Pro</p>
+            <h1 class="heading-1 m-0"><span class="text-purple">&lcub;</span>BootCamp<span class="text-purple">&rcub;</span></h1>
+            <h2 class="heading-2">A Course In Bootstrap CSS For Developers</h2>
+            
+                <div class="container d-grid text-center h-30 gap-4 w-100">
+                    <div class="row h-50">
                         <div class="col"></div>
-                        <button class="col">Start Learning Now</button>
+                        <button class="col purple text-white b-0 rounded-pill">Start Learning Now</button>
                         <div class="col"></div>
                     </div>
-                    <div class="row">
-                        <div class="col">
+                    <div class="row h-50">
+                        <div class="col no-child-m">
                             <p>Content</p>
                             <p>80+ Videos</p>
                         </div>
-                        <div class="col">
+                        <div class="col no-child-m middle-border">
                             <p>Duration</p>
                             <p>72 Hours</p>
                         </div>
-                        <div class="col">
+                        <div class="col no-child-m">
                             <p>Access</p>
                             <p>Lifetime</p>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
     </main>
 </body>
