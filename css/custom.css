@@ -36,7 +36,7 @@
 }
 
 /* Custom Colors */
-.purple {
+.btn-primary {
     background-color: #8B37FF;
 }
 
@@ -72,4 +72,8 @@
 
 .h-fit{
     height: fit-content;
+}
+
+.hover a:hover{
+    text-decoration: underline;
 }
